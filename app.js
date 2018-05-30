@@ -1,7 +1,8 @@
     var form = document.getElementById("main");
     var input = document.getElementById("input");
-
+    var img = document.getElementById("images");
     form.addEventListener("submit", function (event){
+        img.innerHTML = "";
         event.preventDefault();
 
         var result = input.value;
